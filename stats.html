@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>MCS-Stats</title>
+
+    <!-- email sender -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="email.js"></script>
+    <!-- not anymore -->
+  </head>
+    <body> 
+      <div id="output-text">
+      <div class="top-container">
+  <h1>MCStats</h1>
+    <h2>Stats</h2>
+  <p>Enter Your Stats!</p>
+  <p> In the form of type-of-armor/piece-of-armor/enchants/durability|kills/deaths|ING-name/IRL-name/JSMP3</p>
+</div>
+ <div class="header" id="myHeader">
+    <select id="input-font" class="input"
+        onchange="changeFontStyle (this);">
+        <option value="Times New Roman" selected="selected">Times New Roman</option>
+        <option value="Arial">Arial</option>
+        <option value="cursive">cursive</option>
+    </select>
+   <p>MCStats-Stats</p>
+   </div> 
+      
+       <script src="header.js"></script>
+        <script src="ham.js"></script>
+        <script src="font.js"></script>
+
+      <table>
+  <tr>
+    <th>ING name/IRL name</th>
+    <th>Kills/Deaths Starting from when they gave me their stats</th>
+    <th>Armor/Tools/Enchants</th>
+  </tr>
+  <tr>
+    <td>Parrot</td>
+    <td>N/A</td>
+    <td><a href="/people/parrot.html">Armor/Tools</a></td>
+  </tr>
+  <tr>
+    <td>SpokeIsHere</td>
+    <td>3/0</td>
+    <td><a href="/people/spoke.html">Armor/Tools</a></td>
+  </tr>
+  <tr>
+    <td>ClownpierceXD</td>
+    <td>N/A</td>
+    <td><a href="/people/clown.html">Armor/Tools</a></td>
+  </tr>
+  <tr>
+    <td>NoelX2</td>
+    <td>N/A</td>
+    <td><a href="/people/noel.html">Armor/Tools</a></td>
+  </tr>
+  <tr>
+    <td>Mapicc</td>
+    <td>N/A</td>
+    <td><a href="/people/mapicc.html">Armor/Tools</a></td>
+  </tr>
+      </table>
+        <!-- email sender 
+  <form method="post">
+
+        <label for="message">Stats:</label>
+        <textarea class="message" id="message" required></textarea>
+
+      
+    <input type="button" class="submit" value="Send Email" 
+        onclick="sendEmail()" />
+  </form>
+    
+    <div class="mail-data"></div>
+        -->
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+        
+      <!-- menu -->
+ </div> 
+</div>   
+  <div id="menu">
+  <div id="menu-bar" onclick="menuOnClick()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+  </div>
+  <nav class="nav" id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stats.html">Stats</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav> 
+</div>
+<div class="menu-bg" id="menu-bg"></div>
+  <div class="content">
+  </div>
+    </div>
+    </body>
+</html>

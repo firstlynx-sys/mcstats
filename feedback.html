@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MCS-Feedback</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src=
+    "https://smtpjs.com/v3/smtp.js">
+  </script>
+  
+<script src="email.js"></script>
+</head>
+<html>
+    <body>
+      <div id="output-text">
+        <div class="top-container">
+  <h1>MCStats</h1>
+          <h2>Feedback</h2>
+  <p>UNDER MAINTAINENCE</p>
+</div>
+ <div class="header" id="myHeader">
+    <select id="input-font" class="input"
+        onchange="changeFontStyle (this);">
+  
+        <option value="Times New Roman" 
+            selected="selected">
+            Times New Roman
+        </option>
+        <option value="Arial">Arial</option>
+        <option value="cursive">cursive</option>
+    </select>
+   <p>MCStats-Feedback</p>
+   </div> 
+       <script src="header.js"></script>
+        <script src="ham.js"></script>
+        <script src="font.js"></script>
+      </div> 
+      <!-- menu -->
+  <div id="menu">
+  <div id="menu-bar" onclick="menuOnClick()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+  </div>
+  <nav class="nav" id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stats.html">Stats</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav> 
+</div>
+<div class="menu-bg" id="menu-bg"></div>
+  <div class="content">
+  </div>
+      <!-- this is the form 
+        <script src="script.js"></script>
+  <form method="post">
+
+        <label for="message">Feedback:</label>
+        <textarea class="message" id="message" required></textarea>
+
+      
+    <input type="button" class="submit" value="Send Email" 
+        onclick="sendEmail()" />
+  </form>
+    
+    <div class="mail-data"></div>
+      -->
+      
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+   <div class="mail-data"></div>
+    </div>
+  </body>
+</html> 
